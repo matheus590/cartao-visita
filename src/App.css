@@ -1,0 +1,40 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #222;
+}
+
+.cartao {
+  width: 350px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.foto-perfil img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.dados-contato h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.dados-contato p {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
